@@ -1,0 +1,89 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1423589989400-cc0270157ed0?dpr=1&auto=format&fit=crop&w=1500&h=&q=60&cs=tinysrgb&crop=');
+  font-family: calibri light;
+  background-color: white;
+}
+
+.indented { 
+  margin-bottom: -5px;
+  padding-left: 20px;
+}
+.indented-bullet { 
+padding-left: 60px;
+}
+
+h1 {
+margin-top: 20px;
+}
+hr {
+  padding-top: 1px;
+  margin-top:-10px;
+  background-color: #64af9c;
+}
+li a {
+  color: black;
+}
+.nav ul {
+    list-style-type: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.25;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.nav li a{
+    text-transform: uppercase;
+    float: left;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav li a.active {
+    background-color: #64af9c;
+    padding: 10px 10px;
+    color: white;
+}
+
+.nav li a:hover {
+    color: white;
+    background-color: #da6665;
+}
+/* Used inline to highlight a keyword */
+code {
+	font-family: courier;
+	font-weight: bold;
+}
+
+/* Use to put a box around code */
+.code {
+	width: 515px;			/* The box should be 500 pixels wide, can be a % */
+	margin-left: 40px;		/* Indent box by 40 pixels */
+	margin-top: 10px;		/* 10 pixel space between top of box and previous element */
+	margin-bottom: 10px;		/* 10 pixel space between bottom of box and next element */
+	border-width: 1px;
+	border-color: navy;
+	background-color: #fafafa;	/* Hex colour code for light grey */
+	border-style: dotted;		/* Make a dotted border instead of a solid one */
+	padding: 7.5px;			/* 5 pixel space around content */
+	padding-left: 20px;		/* except for the left edge which has 20 pixels */
+	font-family: courier;
+	font-size: 14px;
+	font-weight: normal;		/* Can be bold */
+}
+
+.lab a{
+  text-decoration: none;
+}
+
+.lab a:hover{
+  color: #64af9c;
+  font-weight: bold;
+  font-size:20px;
+}
